@@ -30,8 +30,8 @@ def reverse_array(array)
 end
 
 def find_a(array)
-  array.sort do |a, b|
-    array.start_with?("a")
+  array.collect do |item|
+    item.start_with?("a")
   end 
 end
 
