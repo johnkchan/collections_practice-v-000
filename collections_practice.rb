@@ -26,8 +26,8 @@ def reverse_array(array)
   end 
 end
 
-def reverse_array(array)
+def find_a(array)
    array.sort do |a, b|
-    array.index(b) <=> array.index(a)
+    array.start_with?("a")
   end 
 end
