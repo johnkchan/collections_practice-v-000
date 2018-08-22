@@ -30,11 +30,13 @@ def reverse_array(array)
 end
 
 def find_a(array)
-  array.collect do |item|
+  output = []
+  array.each do |item|
     if item.start_with?("a")
-      item
+      output << item
     end
   end 
+  output
 end
 
 # def sum_array(array)
