@@ -52,8 +52,13 @@ end
 #   end 
 # end
 
-def sum_array(array)
-  array.sort do |a, b|
-    array.start_with?("a")
+def add_s(array)
+  array.each_with_index.collect do |val, index|
+    if index == 1
+      val
+    else
+      val += "s"
+      val
+    end
   end 
 end
