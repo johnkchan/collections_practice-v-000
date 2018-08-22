@@ -34,3 +34,8 @@ end
 #   end 
 # end
 
+# def sum_array(array)
+#   array.sort do |a, b|
+#     array.start_with?("a")
+#   end 
+# end
