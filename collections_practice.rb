@@ -46,11 +46,11 @@ def find_a(array)
   output
 end
 
-# def sum_array(array)
-#   array.sort do |a, b|
-#     array.start_with?("a")
-#   end 
-# end
+def sum_array(array)
+  array.sort do |a, b|
+    array.start_with?("a")
+  end 
+end
 
 def add_s(array)
   array.each_with_index.collect do |val, index|
